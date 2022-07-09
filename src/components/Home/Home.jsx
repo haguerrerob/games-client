@@ -10,14 +10,17 @@ import SelectGenre from '../SelectGenres/SelectGenre'
 export default function Home() {
   const images = [
     {
-      original: `${process.env.PUBLIC_URL}/images/image-1.Webp`
+      // original: `${process.env.PUBLIC_URL}/images/image-1.Webp`
+      original: `images/image-1.Webp`
     },
     {
-      original: `${process.env.PUBLIC_URL}/images/image-2.Webp`
+      original: `images/image-2.Webp`
+      // original: `${process.env.PUBLIC_URL}/images/image-2.Webp`
     },
 
     {
-      original: `${process.env.PUBLIC_URL}/images/image-3.Webp`
+      original: `images/image-3.Webp`
+      // original: `${process.env.PUBLIC_URL}/images/image-3.Webp`
     }
   ]
   return (
