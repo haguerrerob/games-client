@@ -1,0 +1,36 @@
+:root {
+  --primary-color: hsl(214, 84%, 56%);
+  --text-color: hsl(0, 0%, 31%);
+  --bg-color: #0c3658;
+  --bg-card-color: hsl(0, 0%, 98%);
+  --borderRadius: 0.4em;
+  --transition: color 0.2s, background-color 0.3s ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: var(--transition);
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+body.dark {
+  --text-color: hsl(0, 0%, 83%);
+  /* --bg-color: #e1e3d3; */
+  --bg-card-color: hsl(0, 0%, 20%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
