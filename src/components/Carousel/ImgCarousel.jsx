@@ -5,6 +5,7 @@ import './image-gallery.css'
 
 const ImgCarousel = (props) => {
   const images = props.images
+  console.log(images)
 
   return (
     <ImageGallery
