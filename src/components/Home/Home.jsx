@@ -1,13 +1,25 @@
 import styled from 'styled-components'
 import logo from '../../icons/gamer-logo.png'
 import Footer from '../Footer/Footer'
-import images from './images.js'
+// import images from './images.js'
 
 import ImgCarousel from '../Carousel/ImgCarousel'
 import GamesCards from '../GamesCards/GamesCards'
 import SelectGenre from '../SelectGenres/SelectGenre'
 
 export default function Home() {
+  const images = [
+    {
+      original: `${process.env.PUBLIC_URL}/images/image-1.Webp`
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/images/image-2.Webp`
+    },
+
+    {
+      original: `${process.env.PUBLIC_URL}/images/image-3.Webp`
+    }
+  ]
   return (
     <StyledExt>
       <NavbarDiv>
